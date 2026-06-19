@@ -4,7 +4,7 @@ Free, daily-updated **foreign-exchange reference rates** from the **European
 Central Bank** — as plain **CSV** and **JSON**, plus tiny helpers for looking up
 the rate on any past date. No API key, no signup.
 
-- 📅 **Daily updated** — a GitHub Action refreshes the data every weekday.
+- 🔄 **Refreshed easily** — one script (`node scripts/update.mjs`) pulls the latest rates.
 - 🗂️ **Plain files** — [`data/latest.csv`](data/latest.csv) and [`data/latest.json`](data/latest.json).
 - 🔑 **Keyless** — historical lookups via the open Frankfurter API (ECB data).
 - 🆓 **MIT** code, public-domain ECB rates.
