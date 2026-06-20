@@ -46,12 +46,12 @@ GET https://api.frankfurter.dev/v1/2020-03-23?base=USD&symbols=EUR
 
 ## Browse it on the web
 
-Prefer a UI? **[RateHistory](https://fx-history-roan.vercel.app)** has a page for
+Prefer a UI? **[RateHistory](https://fx.wrapper-agency.com)** has a page for
 every currency pair and historic date — with charts and a free converter:
 
-- [USD to EUR history](https://fx-history-roan.vercel.app/usd-to-eur)
-- [GBP to USD on Brexit day](https://fx-history-roan.vercel.app/rate/gbp/usd/2016-06-23)
-- [All rates on the COVID-19 low](https://fx-history-roan.vercel.app/rates/2020-03-23)
+- [USD to EUR history](https://fx.wrapper-agency.com/usd-to-eur)
+- [GBP to USD on Brexit day](https://fx.wrapper-agency.com/rate/gbp/usd/2016-06-23)
+- [All rates on the COVID-19 low](https://fx.wrapper-agency.com/rates/2020-03-23)
 
 ## Data & license
 
