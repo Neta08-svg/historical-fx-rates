@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "io.github.neta08-svg/ratehistory",
+  "description": "Historical foreign-exchange rates (ECB reference rates) as MCP tools: get_rate and get_timeseries. Thin wrapper over the public RateHistory API.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/Neta08-svg/historical-fx-rates",
+    "source": "github"
+  },
+  "remotes": [],
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "ratehistory-mcp",
+      "version": "1.0.0",
+      "transport": { "type": "stdio" }
+    }
+  ]
+}
