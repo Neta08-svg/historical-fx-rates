@@ -2,9 +2,34 @@
   "name": "ratehistory-mcp",
   "version": "1.0.0",
   "type": "module",
-  "private": true,
   "dependencies": {
-    "@modelcontextprotocol/sdk": "latest",
-    "zod": "^3"
-  }
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^3.23.0"
+  },
+  "description": "MCP server for historical foreign-exchange rates (ECB): get_rate, get_timeseries.",
+  "bin": {
+    "ratehistory-mcp": "server.mjs"
+  },
+  "files": [
+    "server.mjs",
+    "server.json",
+    "README.md"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neta08-svg/historical-fx-rates.git"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "modelcontextprotocol",
+    "fx",
+    "forex",
+    "exchange-rates",
+    "ecb"
+  ]
 }
